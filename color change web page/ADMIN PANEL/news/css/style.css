@@ -1,0 +1,260 @@
+
+
+body {
+  background-color: #1e2129;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.navbar{
+  background: white;
+  color: black;
+}
+
+.s1{
+  color: black;
+}
+.main {
+ 
+  background: #f5f5f5;
+  width: 1350px;
+  height: 850px;
+  margin: em auto;
+  
+  box-shadow: 0px 11px 35px 2px rgba(0, 0, 0, 0.14);
+ 
+}
+.title{
+  background: #005fc5;
+  color:black;
+  position: relative;
+  height: 50px;
+  font-weight: bold;
+  font-size: large;
+}
+
+
+.sign {
+  padding-top: 40px;
+  color: #8C55AA;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  font-size: 23px;
+}
+
+.un {
+width: 50%;
+color: black;
+font-weight: 700;
+font-size: 14px;
+letter-spacing: 1px;
+background: rgba(136, 126, 126, 0.04);
+padding: 10px 20px;
+border: none;
+border-radius: 15px;
+outline: none;
+box-sizing: border-box;
+border: 2px solid rgba(0, 0, 0, 0.02);
+margin-bottom: 50px;
+margin-left: 100px;
+text-align: center;
+margin-bottom: 27px;
+font-family: 'Ubuntu', sans-serif;
+position: relative;
+left: 50px;
+top: 50px;
+
+}
+
+.un3{
+     width: 75%;
+     height: 200px;
+    color: white;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 1px;
+    background: rgba(136, 126, 126, 0.04);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    box-sizing: border-box;
+    border: 2px solid rgba(0, 0, 0, 0.02);
+    margin-bottom: 50px;
+    margin-left: 150px;
+    text-align: center;
+    margin-bottom: 27px;
+    font-family: 'Ubuntu', sans-serif;
+    position: relative;
+    top: 50px;
+    }
+#scripts{
+  position: relative;
+  left: 100px;
+  top: 50px;
+  color: red;
+}
+
+.un1{
+  color: black;
+  position: relative;
+  left: 50px;
+  top: 50px;
+
+}
+
+  
+
+form.form1 {
+  padding-top: 40px;
+}
+
+
+
+
+.un:focus, .pass:focus {
+  border: 2px solid rgba(0, 0, 0, 0.18) !important;
+  
+}
+
+
+
+a {
+  text-shadow: 0px 0px 3px rgba(117, 117, 117, 0.12);
+  color: #E1BEE7;
+  text-decoration: none
+}
+
+.upload-btn-wrapper {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  cursor: pointer;
+
+}
+
+.btn {
+  border: 2px solid gray;
+  color: white;
+  background:#005fc5;
+  cursor: pointer;
+  padding: 8px 20px;
+  border-radius: 8px;
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 150px;
+  margin-top: 20px;
+  position: relative;
+  top: 5px;
+}
+.par{
+  position: relative;
+  left: 50px;
+  top: 10px;
+  color: white;
+}
+
+.upload-btn-wrapper input[type=file] {
+  font-size: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+  cursor: pointer;
+}
+.up{
+  cursor: pointer;
+  position: relative;
+  top: 50px;
+}
+
+#scripts{
+  position: relative;
+  
+}
+#currentDate{
+  background: black;
+  position: relative;
+  right: 50px;
+  color: white;
+ 
+}
+
+.btn1 {
+  border: 2px solid gray;
+  color: white;
+  background:#005fc5;
+  cursor: pointer;
+  padding: 8px 20px;
+  border-radius: 8px;
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 550px;
+  margin-top: 50px;
+}
+
+
+/* 
+##Device = Desktops
+##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  /* CSS */
+  
+}

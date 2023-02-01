@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Market</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+  <body>
+
+    
+    <style>
+       
+  .signup-link{
+    text-align: center;
+  }
+  .submit{
+    border-color: pink;
+    text-align: center;
+
+  }
+  .submit:hover{
+    background: purple;
+    border-color: pink;
+  }
+  .code{
+    text-align: center;
+  }
+  .nav-item dropdown{
+      align-items: center;
+      padding-right: 10px;
+      
+  }
+  
+    </style>
+    
+    <!--start code -->
+
+    <nav class="navbar">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="../image/1st.png" alt="" width="25" height="25" class="d-inline-block align-text-top">
+         <span>Trade Belivers </span> 
+        </a>
+
+        <span style="color: white; padding-right: 50px;"> Overview </span>
+
+       
+<div>
+  <img src="./image/admin.png" style="width:20px; height:20px; color: white; ">
+  <span style="color: white;"> Admin  </span> <i class="fa-sharp fa-solid fa-circle-user"></i>
+
+</div>
+       
+        </div>
+     </nav>
+     
+         
+    <!--nav bara close-->
+
+  
+        
+            <div class="title">
+              <p>Market Update</p>
+            </div>
+          
+          <div class="main"> 
+        <form onSubmit = "return checkPassword(this)">
+          <label class="un1">News Title</label>
+          <br>
+              <input class="un " type="text" align="center" placeholder="News Title" required>
+              <br>
+              <label class="un1">Market Tags</label>
+              <br>
+              <input class="un " type="text" align="center" placeholder="News tags" required>
+              <br>
+              <label class="un1">Market image</label>
+              <br>
+              <div class="upload-btn-wrapper">
+                <button class="btn">Choose a file</button>
+                <input  class="up" type="file" name="myfile" required>
+              </div>
+              <br>
+              <br>
+              <label class="un1">Market Discrption</label>
+              <br>
+              <input class="un3" type="text" align="center" placeholder="News Content" required>
+              <br>
+              <label class="un1">Date/Time</label>
+              <br>
+              <div id="scripts"></p>
+                <script>
+                document.getElementById("current_date").innerHTML = Date();
+
+                </script>
+
+Current Date:
+<input type="text" id="currentDate" name="date" value="norway" readonly style="background: #1e2129; border-color: #1e2129; color: white; margin-left: 50px; width: 150px; font-size: 20px; ">
+ 
+<script>
+  var today = new Date();
+  var date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
+  document.getElementById("currentDate").value = date;
+</script>
+
+<br>
+<button class="btn1" type="submit">Upload a file</button>
+            </div>
+                <br>
+             
+              
+              
+            
+        </form>       
+       
+   
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>

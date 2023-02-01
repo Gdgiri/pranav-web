@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+          
+            // Function to check Whether both passwords
+            // is same or not.
+            function checkPassword(form) {
+                pass1 = form.pass1.value;
+                pass2 = form.pass2.value;
+  
+                // If password not entered
+                if (pass1 == '')
+                    alert ("Please enter Password");
+                      
+                // If confirm password not entered
+                else if (pass2 == '')
+                    alert ("Please enter confirm password");
+                      
+                // If Not same return False.    
+                else if (pass1 != pass2) {
+                    alert ("\nPassword did not match: Please try again...")
+                    return false;
+                }
+  
+                // If same return True.
+                else{
+                    alert("Password Match: Welcome to pranav!")
+                    return true;
+                }
+            }
+        </script>
+        <style>
+           
+      .signup-link{
+        text-align: center;
+      }
+      .submit{
+        border-color: pink;
+        text-align: center;
+
+      }
+      .submit:hover{
+        background: purple;
+        border-color: pink;
+      }
+      .code{
+        text-align: center;
+      }
+    
+        </style>
+        <title>Sign-Up page</title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
+    <body>
+        
+       
+            <div class="main">
+                <p class="sign" align="center"> SIGN-UP </p>
+                
+            <form onSubmit = "return checkPassword(this)">
+                  <input class="un " type="text" align="center" placeholder="Username" required>
+                  <input class="un " type="email" align="center" placeholder="Email" required>
+                  <input class="pass" type="password" align="center" placeholder="Password" name="pass1" required>
+                  <input class="pass" type="password" align="center" placeholder="confirm password" name="pass2" required>
+                  <input class="un " type="text" align="center" placeholder="Ref-code" required>
+                  <br>
+                  <div class="sing">already a member? <a href="../index.html">Login now</a></div>
+                  
+                  
+                <button type="submit" class="submit" value="submit" >Signup</button>    
+            </form>    
+           
+                </div>
+    </body>
+</html>                    
